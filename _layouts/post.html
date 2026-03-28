@@ -1,0 +1,20 @@
+
+---
+layout: default
+---
+
+<div class="site-header">
+  <div class="site-title-row">
+    <div class="rss-box">◧</div>
+    <div class="site-title"><a href="/">{{ site.title }}</a></div>
+    <div class="site-nav"><a href="/about/">About</a></div>
+  </div>
+</div>
+
+<article class="post-page">
+  <div class="post-date">{{ page.date | date: "%b %-d, %Y" }}</div>
+  <h1 class="post-page-title">{{ page.title }}</h1>
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>
